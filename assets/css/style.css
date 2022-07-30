@@ -1,0 +1,174 @@
+body {
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+
+	font-size: 15px;
+	line-height: 1.6;
+	color:  #2A2C1F;
+	background-color: #F5F5F2;
+
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+	/*conteiner*/
+.conteiner {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 left;
+	padding-top: 425px;
+	padding-right: 100px;
+	padding-left: 80px;
+
+}
+	
+	/*Intro*/
+.intro {
+	width: 100%;
+	height: 100vh;
+
+	background: url("..//image/intros.png") right no-repeat;
+
+}
+
+.intro__title {
+	position: absolute;
+	height: 135px;
+	left: 0%;
+	right: 7.86%;
+	top: 49.42px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 56px;
+	line-height: 67px;
+}
+
+.intro__title{
+	font-family: 'Roboto';
+	width: 100%;
+	margin: 0 left;
+	padding-left: 80px;
+	padding-top: 209px;
+	padding-right: 844px;
+
+}
+
+.intro__title2 {
+	width: 50%;
+	padding-left: 5px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 30px;
+	color: #65665C;
+}
+
+	/*Header*/
+.header {
+	padding-top: 10px;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+
+	width: 100%;
+	background: #fff;
+	height: 70px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	padding: 0 80px;
+}
+
+
+
+
+.header__logo {
+	font-size: 30px;
+	font-weight: 70;
+	color: #2A2C1F;
+}
+
+
+	/*Nav*/
+. {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 170px;
+	padding-top: 1px;
+
+}
+
+.nav__link {
+	display:inline-block;
+	vertical-align: top;
+	color: #222222;
+	text-decoration: none;
+	margin: 0 8px;
+	position:relative; 
+
+	transition: .2s linear;
+
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 3px;	
+	background-color: #898c8a;
+	opacity: 0;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	transition: opacity .2s linear;
+}
+
+.nav__link:hover {
+	color: #1329d1;
+}
+
+.nav__link:hover:after{
+	opacity: 1;
+}
+
+	/*search*/
+
+.search-form{
+	border: 1px solid #E7E8E3;
+	display: inline-flex;
+	/*padding: 0 20px;*/
+	border: none;
+	justify-content:space-between;
+	align-items:center;
+}
+.search-form__txt{
+	border: none;
+	width: 200px;
+	outline: none;
+	font-size: 20px;
+}
+
+.search-form__btn{
+	border: none;
+	
+}
+
+.search-form__image{
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	position: absolute;
+
+}
